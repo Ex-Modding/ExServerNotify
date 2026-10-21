@@ -1,0 +1,19 @@
+# Gradle & Loom Build Artifacts
+.gradle/
+build/
+out/
+
+# Keep Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE & Editor Files
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
