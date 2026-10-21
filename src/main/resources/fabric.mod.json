@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "exservernotify",
+  "version": "${version}",
+  "name": "ExServerNotify",
+  "description": "Ultra-lightweight server lifecycle webhook notifier for ExServerWeb",
+  "authors": [
+    "soroqn"
+  ],
+  "contact": {
+    "homepage": "https://ex-server-web.vercel.app"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.fome.notify.ExServerNotifyMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=26.2",
+    "fabric-lifecycle-events-v1": "*"
+  }
+}
